@@ -1,5 +1,14 @@
 $(function(){
 
+    var mixer = mixitup('.works__items', {
+        selectors: {
+            target: '.works__item'
+        },
+        animation: {
+            effects: 'fade translateZ(-100px)'
+        }
+    });
+
     $(document).ready(function() {
         $('.header__content-video').magnificPopup({
             disableOn: 300,
