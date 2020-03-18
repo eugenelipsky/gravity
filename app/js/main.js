@@ -33,4 +33,8 @@ $(function(){
         slidesToScroll: 1,
         variableWidth: true,
     });
+    $('.testimonials__slider').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1
+    });
 });

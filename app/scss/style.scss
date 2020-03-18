@@ -457,4 +457,74 @@
   }
 }
 
+.testimonials {
+  margin-bottom: 176px;
+}
+
+.testimonials__inner {
+  position: relative;
+}
+
+.testimonials__title {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  opacity: .7;
+  text-transform: uppercase;
+  position: absolute;
+}
+
+.testimonials__slider-content {
+  display: flex;
+  align-items: center;
+}
+
+.testimonials__slider-title {
+  margin-bottom: 121px;
+}
+
+.testimonials__slider-name {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 32px;
+  margin-bottom: 13px;
+}
+
+.testimonials__slider-position {
+  opacity: .7;
+}
+
+.testimonials__slider {
+  .slick-track {
+    display: flex;
+  }
+
+  .slick-list {
+    overflow: hidden;
+  }
+
+  .slick-arrow {
+    position: absolute;
+    font-size: 0;
+    border: none;
+    background-color: #C4C4C4;
+    width: 50px;
+    height: 50px;
+  }
+
+  .slick-prev {
+    bottom: 0;
+    background-image: url('../img/arrow-left.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .slick-next {
+    left: 80px;
+    bottom: 0;
+    background-image: url('../img/arrow-right.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+}
 @import 'media';
