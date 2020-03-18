@@ -527,4 +527,146 @@
     background-position: center;
   }
 }
+
+.clients {
+  background-color: #fafafa;
+  padding: 102px 0 141px 0;
+}
+
+.clients__top {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 73px;
+}
+
+.clients__top-about {
+  max-width: 445px;
+}
+
+.clients__top-about__title {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  padding-bottom: 17px;
+}
+
+.clients__top-about__text {
+  opacity: .7;
+}
+
+.clients__logos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.clients__logos-img {
+  opacity: 0.15;
+  transition: opacity .3s;
+
+  &:hover {
+    opacity: 1;
+  }
+}
+
+.footer {
+  background-color: #515151;
+  padding: 70px 0 35px 0;
+}
+
+.footer__top-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgba(#fff, .2);
+  padding-bottom: 42px;
+}
+
+.footer__top-menu {
+  ul {
+    li {
+      display: inline-block;
+
+      & + li {
+        padding-left: 59px;
+      }
+
+      a {
+        color: #fff;
+      }
+    }
+  }
+}
+
+.footer__top-subscribe {
+  form {
+    display: flex;
+    align-items: center;
+    input {
+      height: 40px;
+      width: 170px;
+      padding: 0 20px;
+      background-color: #F5F4FF;
+      border: none;
+
+      &::placeholder {
+        opacity: .5;
+      }
+    }
+
+    button {
+      border: none;
+      background-color: #C6B393;
+      height: 40px;
+      padding: 0 25px;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 24px;
+      text-transform: uppercase;
+      letter-spacing: 4px;
+      color: #fff;
+      margin-left: 15px;
+    }
+  }
+}
+
+.footer__bottom {
+  padding-top: 37px;
+}
+
+.footer__bottom-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__bottom-menu {
+  ul {
+    li {
+      display: inline-block;
+
+      & + li {
+        padding-left: 43px;
+      }
+
+      a {
+        color: #fff;
+        opacity: .4;
+      }
+    }
+  }
+}
+
+.footer__bottom-social {
+  a {
+    & + a {
+      padding-left: 15px;
+    }
+    img {
+      opacity: .4;
+    }
+  }
+}
 @import 'media';
