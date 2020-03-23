@@ -1,15 +1,6 @@
-$(function(){
+$(function () {
 
-    var mixer = mixitup('.works__items', {
-        selectors: {
-            target: '.works__item'
-        },
-        animation: {
-            effects: 'fade translateZ(-100px)'
-        }
-    });
-
-    $(document).ready(function() {
+    $(document).ready(function () {
         $('.header__content-video').magnificPopup({
             disableOn: 300,
             type: 'iframe',
@@ -32,9 +23,23 @@ $(function(){
         slidesToShow: 2,
         slidesToScroll: 1,
         variableWidth: true,
+        responsive: [{
+            breakpoint: 970,
+            settings: {
+                slidesToShow: 1,
+                variableWidth: false,
+            }
+        }]
     });
     $('.testimonials__slider').slick({
         slidesToShow: 1,
         slidesToScroll: 1
     });
+
+
+    var mixer = document.querySelector(".works__items");
+    if (mixer) {
+        mixer = mixitup('.works__items');
+    };
+
 });
