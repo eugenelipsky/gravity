@@ -209,9 +209,27 @@
   }
 }
 
+@media (max-width: 680px) {
+  .work__top {
+    display: block;
+  }
+
+  .work__top {
+    margin-bottom: 45px;
+  }
+}
+
 @media (max-width: 663px) {
   .footer__top-menu {
     margin-bottom: 20px;
+  }
+
+  .awards__inner {
+    flex-wrap: wrap;
+  }
+
+  .awards__type {
+    margin-bottom: 25px;
   }
 }
 
@@ -262,6 +280,10 @@
   .services {
     margin-bottom: 110px;
   }
+
+  .header {
+    margin-bottom: 25px;
+  }
 }
 
 @media (max-width: 555px) {
@@ -273,6 +295,19 @@
     margin-bottom: 20px;
   }
 
+  .awards__item {
+    &-name {
+      padding-right: 25px;
+    }
+
+    &-descr {
+      padding-right: 25px;
+    }
+
+    &-date {
+
+    }
+  }
 }
 
 @media (max-width: 450px) {
@@ -286,6 +321,21 @@
 
   .services__slider {
     padding-left: 10px;
+  }
+
+  .work__top-title {
+    font-size: 45px;
+    line-height: 55px;
+  }
+}
+
+@media (max-width: 400px) {
+  .awards__item {
+    display: block;
+  }
+
+  .awards {
+    margin-bottom: 0;
   }
 }
 
